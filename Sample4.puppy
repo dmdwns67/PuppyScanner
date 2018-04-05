@@ -1,0 +1,14 @@
+program_start
+{the fourth test program }
+input$ number;
+	fact = 1;
+	if (number > 0) then
+	if_start
+	repeat_start
+		fact =fact * number;
+		number = number -1
+	repeat_end;
+	if_end
+	print fact { print output of factorial }
+program_end
+

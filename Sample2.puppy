@@ -1,0 +1,7 @@
+program_start
+	{ the Second test program of Puppy }
+	input $operand1, operand2, operand3;
+	operand2=3; operand3=7;
+	operand1 = operand2 + operand 3;
+	print operand1; {result of addition}
+program_end
