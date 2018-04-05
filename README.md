@@ -1,14 +1,22 @@
 # A Manual Scanner for the Language, Puppy #
 
-This repository is the first homework for 2018-1 Compiler Theory class. 
+This is the first homework for 2018-1 Compiler Theory class. 
 
 It consists of:
-1. java files
+1. java files <br>
  : It includes puppy.java and Scanner.java which are java files for executing the program.
-2. sample files
+2. sample files <br>
  : It includes Sample1.puppy ~ Sample4.puppy which are sample files for testing.
 
 ---------------------
+## The language, Puppy ##
+1. User-defined identifier starts with an alphabet letter followed by alphabet or number.
+2. The program is case-sensitive.
+3. Comments are delimited by a pair of {, and }.
+4. The assignment is '='.
+5. The keywords (reserved words) are marked with yellow in sample programs.
+
+
 ## How to compile ##
 <br>*Before start compiling, be aware that it works with Linux*
 
@@ -19,22 +27,14 @@ It consists of:
 ## How to use ##
 
 * USER COMMANDS
-  * NAME <br>
-	mdparser : parses .md file into html file.
-
   * SYNOPSIS <br>
-	<code>mdparser FILE.md [FILE.html]</code>
+	<code>java puppy FILE.puppy</code>
 
  * DESCRIPTION
-	This manual page documents the mdparser command line functionality. It receives a .md file and
-	converts it into a html file. Usage of mdparser are given below. 
-	
+	This manual page documents the manual scanner for Puppy command line functionality. It receives a .puppy file 
+	from the user and examines the validity of the words used. The keywords (reserved words) are marked with yellow, 
+	and words which are not valid are marked in red. The usage is given below. 
 		
-	   -  mdparser source.md destination.html 
-	      (converts source.md into a file named destination.html in stylish format)
+	   -  java puppy source.puppy 		     
 
-	   -  mdparser source.md 		     
-	      (assigns the same name with the source .md file if output file name is not given. In this case, returns source.html)
-
-
-	**Note that at least one .md file must be specified*
+	**Note that only one .puppy file must be specified*
