@@ -18,7 +18,7 @@ It consists of:
 
 
 ## How to compile ##
-<br>*Before start compiling, be aware that it works with Linux*
+*Before start compiling, be aware that it works with Linux*
 
 1. To compile java files, open your terminal and type :<br>
 <code> $ javac puppy.java Scanner.java </code>
@@ -30,7 +30,7 @@ It consists of:
   * SYNOPSIS <br>
 	<code>java puppy FILE.puppy</code>
 
- * DESCRIPTION
+ * DESCRIPTION <br>
 	This manual page documents the manual scanner for Puppy command line functionality. It receives a .puppy file 
 	from the user and examines the validity of the words used. The keywords (reserved words) are marked with yellow, 
 	and words which are not valid are marked in red. The usage is given below. 
