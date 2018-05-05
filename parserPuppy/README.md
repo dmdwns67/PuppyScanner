@@ -1,5 +1,5 @@
 
-# A Manual Scanner for the Language, Puppy #
+# A Manual Parser for the Language, Puppy #
 
 This is the second homework for 2018-1 Compiler Theory class. 
 
